@@ -1,0 +1,578 @@
+<!-- hello so little discription about my music player -->
+<!-- it is responsive hoever did not desined it for mobile only tablet above-->
+<!-- it has dark mode which enables lite mode and fark mode -->
+<!-- it has home button -->
+<!-- responsive favourite section -->
+<!-- playlist -->
+<!-- latest songs etc -->
+<!-- page is responsive you can give it a try -->
+<!-- thankyou please rate well -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styleslite.css" />
+    <script
+      src="https://kit.fontawesome.com/c348d4c177.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>music player</title>
+  </head>
+  <body>
+    <!-- header Start -->
+    <header class="nav-bar">
+      <!-- title and logo -->
+      <div class="title-combo">
+        <div class="logo">
+          <img src="media/Website_logo.png" />
+        </div>
+        <div class=" ">
+          <h2>Justify</h2>
+          <h1>Music</h1>
+        </div>
+      </div>
+      <!-- favourites -->
+      <div class="fav">
+        <a href="playlistlite.html">
+          <h3>favourites</h3>
+        </a>
+      </div>
+      <!-- search box -->
+      <div class="search-box">
+        <form action="">
+          <button id="search" type="submit">
+            <i
+              class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #a3a5a8;"
+            ></i>
+          </button>
+          <input
+            type="text"
+            placeholder="Search..."
+            name="search"
+            id="search"
+          />
+          <button id="mic" type="submit">
+            <i class="fa-solid fa-microphone fa-lg" style="color: #a3a5a8;"></i>
+          </button>
+        </form>
+      </div>
+      <!-- notification -->
+      <div class="notification">
+        <i class="fa-solid fa-bell fa-xl"></i>
+      </div>
+      <!-- dark mode -->
+      <div class="notification">
+        <a href="index.html"><i class="fa-solid fa-circle-half-stroke fa-xl"></i></a>
+        
+      </div>
+      <!-- home -->
+      <div class="home">
+          <a href="indexlite.html"><i class="fa-solid fa-house fa-lg"></i></a>
+      </div>
+      <!-- user -->
+      <div class="user">
+        <img src="media/user_photo.jpg" alt="" />
+      </div>
+    </header>
+    <!-- header End -->
+
+    <!-- main start -->
+    <main>
+      <aside class="aside section-1">
+        <!-- Banner Section -->
+        <section class="container">
+          <div class="box">
+            <img src="media/banner_image_1.jpg" alt="Banner-1" />
+          </div>
+          <div class="box" style="z-index: 1;">
+            <img src="media/banner_image_2.jpg" alt="Banner-3" />
+          </div>
+          <div class="box">
+            <img src="media/banner_image_3.jpg" alt="Banner-2" />
+          </div>
+        </section>
+        <!-- latest releases -->
+        <section class="latest-releases">
+          <h1 class="heading-text">Latest Releases</h1>
+
+          <div class="card">
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/breadandbutter.jpg" alt="" />
+              </a>
+
+              <figcaption class="song-info">
+                <h2>Bread</h2>
+                <p>2023</p>
+              </figcaption>
+            </figure>
+            <div class="options">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="playlistlite.html">Play</a>
+                  <a href="#">Add to Queue</a>
+                  <a href="#">About</a>
+                </div>
+              </div>
+              <p>2:30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/freestyle_lilbaby.jpg" alt="" />
+              </a>
+              <figcaption class="song-info">
+                <h2>freestyle</h2>
+                <p>2023</p>
+              </figcaption>
+            </figure>
+            <div class="options">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="playlistlite.html">Play</a>
+                  <a href="#">Add to Queue</a>
+                  <a href="#">About</a>
+                </div>
+              </div>
+              <p>1:40</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/jonnydang_mexicanot.jpg" alt="" />
+              </a>
+              <figcaption class="song-info">
+                <h2>JonnyDang</h2>
+                <p>2023</p>
+              </figcaption>
+            </figure>
+            <div class="options">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="playlistlite.html">Play</a>
+                  <a href="#">Add to Queue</a>
+                  <a href="#">About</a>
+                </div>
+              </div>
+              <p>1:40</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/flygame_lilmosey.jpg" alt="" />
+              </a>
+              <figcaption class="song-info">
+                <h2>FLu Game</h2>
+                <p>2023</p>
+              </figcaption>
+            </figure>
+            <div class="options">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="playlistlite.html">Play</a>
+                  <a href="#">Add to Queue</a>
+                  <a href="#">About</a>
+                </div>
+              </div>
+              <p>2:10</p>
+            </div>
+          </div>
+        </section>
+        <!-- popular artist -->
+        <section class="popular-artists">
+          <h1 class="heading-text">Popular Artists</h1>
+          <div class="popular-artist-content">
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/lil_mosey.jpg" alt="" />
+                <figcaption>LiL Mosey</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/drake.jpg" alt="" />
+                <figcaption>Drake</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/lil_peep.jpg" alt="" />
+                <figcaption>LiL PeeP</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/juice_wrld.jpg" alt="" />
+                <figcaption>Juice Wrld</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="playlistlite.html">
+                <img src="media/Xxxtentacion.jpg" alt="" />
+                <figcaption>XXXtentacion</figcaption>
+              </a>
+            </figure>
+          </div>
+        </section>
+
+        <!-- catorgory -->
+        <section class="music-catagorie">
+          <h1 class="heading-text">Category</h1>
+          <div class="catagorie">
+            <figure>
+              <a href="">
+                <img src="media/trap.jpg" alt="" />
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/rnb.jpg" alt="" />
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/rap_music.jpg" alt="" />
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/reggae.jpg" alt="" />
+              </a>
+            </figure>
+          </div>
+        </section>
+        <!-- Latest English -->
+
+        <section class="latest-songs" id="latest-english">
+          <h1 class="heading-text">Latest English</h1>
+          <div class="latest-song-div">
+            <figure>
+              <a href="">
+                <img src="media/flugame.jpg" alt="" />
+                <figcaption class="">
+                  <h3>FLu game</h3>
+                  <h4>july 2, 2023</h4>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/fuckumean.jpg" alt="" />
+                <figcaption class="">
+                  <h3>fuckumean</h3>
+                  <h4>july 12, 2023</h4>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/gotitonme.jpg" alt="" />
+                <figcaption class="">
+                  <h3>got it on me</h3>
+                  <h4>june 2, 2023</h4>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/starshopping.jpg" alt="" />
+                <figcaption class="">
+                  <h3>star shopping</h3>
+                  <h4>march 16, 2023</h4>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/ifallapart.jpg" alt="" />
+                <figcaption class="">
+                  <h3>i fall apart</h3>
+                  <h4>jan 12, 2023</h4>
+                </figcaption>
+              </a>
+            </figure>
+          </div>
+        </section>
+        <!-- Latest Podcast -->
+
+        <section class="latest-songs" id="latest-podcast">
+          <h1 class="heading-text">Top podcast</h1>
+          <div class="latest-song-div">
+            <figure>
+              <a href="">
+                <img src="media/jre.jpg" alt="" />
+                <figcaption class="">
+                  <h3>The JRE</h3>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/crimejunkie.png" alt="" />
+                <figcaption class="">
+                  <h3>Crime Junkie</h3>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/myfavmur.jpg" alt="" />
+                <figcaption class="">
+                  <h3>My Fav Murder</h3>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/ben.jpg" alt="" />
+                <figcaption class="">
+                  <h3>Ben Shapiro</h3>
+                </figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="">
+                <img src="media/trs.jpg" alt="" />
+                <figcaption class="">
+                  <h3>TRS</h3>
+                </figcaption>
+              </a>
+            </figure>
+          </div>
+        </section>
+      </aside>
+      <aside class="aside-section2">
+        <div class="header2">
+          <div><h1>Playlist</h1></div>
+          <div class="options queue">
+            <div class="dropdown">
+              <button class="dropbtn">
+                <h3>Queue <i class="fa-solid fa-list fa-sm"></i></h3>
+              </button>
+              <div class="dropdown-content">
+                  <a href="indexlite.html">Home</a>
+                <a href="playlistlite.html">PlayList</a>
+                <a href="#">favourites</a>
+                <a href="#">Add to Queue</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="playlist">
+          <div class="playlist-item">
+            <div class="playlist-content">
+              <div class="content-left">
+                <div style="margin-right: 4px;"><h2>01</h2></div>
+                <div class="coverer">
+                  <img
+                    class="small-img"
+                    src="media/whattheywant.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div><h4>What they want</h4></div>
+                </div>
+              </div>
+
+              <div class="content-right">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="playlist-item">
+              <div class="playlist-content">
+                <div class="content-left">
+                  <div style="margin-right: 4px;"><h2>02</h2></div>
+                  <div class="coverer">
+                    <img
+                      class="small-img"
+                      src="media/nighttime.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <div><h4>What they want</h4></div>
+                  </div>
+                </div>
+  
+                <div class="content-right">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="playlist-item">
+                <div class="playlist-content">
+                  <div class="content-left">
+                    <div style="margin-right: 4px;"><h2>03</h2></div>
+                    <div class="coverer">
+                      <img
+                        class="small-img"
+                        src="media/notice.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <div><h4>What they want</h4></div>
+                    </div>
+                  </div>
+    
+                  <div class="content-right">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="playlist-item">
+                  <div class="playlist-content">
+                    <div class="content-left">
+                      <div style="margin-right: 4px;"><h2>04</h2></div>
+                      <div class="coverer">
+                        <img
+                          class="small-img"
+                          src="media/sickomode.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div><h4>What they want</h4></div>
+                      </div>
+                    </div>
+      
+                    <div class="content-right">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="playlist-item">
+                    <div class="playlist-content">
+                      <div class="content-left">
+                        <div style="margin-right: 4px;"><h2>05</h2></div>
+                        <div class="coverer">
+                          <img
+                            class="small-img "
+                            src="media/big.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div><h4>What they want</h4></div>
+                        </div>
+                      </div>
+        
+                      <div class="content-right">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="playlist-item">
+                      <div class="playlist-content">
+                        <div class="content-left">
+                          <div style="margin-right: 4px;"><h2>06</h2></div>
+                          <div class="coverer">
+                            <img
+                              class="small-img"
+                              src="media/bankaccount.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div>
+                            <div><h4>What they want</h4></div>
+                          </div>
+                        </div>
+          
+                        <div class="content-right">
+                          <i class="fa-regular fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                          <div class="content-left">
+                            <div style="margin-right: 4px;"><h2>07</h2></div>
+                            <div class="coverer">
+                              <img
+                                class="small-img"
+                                src="media/ghostboy.jpg"
+                                alt=""
+                              />
+                            </div>
+                            <div>
+                              <div><h4>What they want</h4></div>
+                            </div>
+                          </div>
+            
+                          <div class="content-right">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </aside>
+    </main>
+     <!-- Footer:- Music Palyer Controls  -->
+     <footer>
+      <div class="play-song-info trans-bg">
+          <div class="con-left trans-bg">
+              <div class="footer-img">
+                  <img class="small-img inline-block " src="media/starshopping.jpg" alt=""> 
+              </div>
+              <div class="trans-bg">
+                  <div class="font-mid trans-bg">Star shopping</div>
+                  <p class="trans-bg">Lil peep</p>
+              </div> 
+          </div>    
+          <div class="con-right trans-bg side-margin-4px">
+              <i class="fa-solid fa-ban"></i>
+              <i class="fa-solid fa-heart"></i>
+          </div>
+      </div>
+
+      <div class="player trans-bg"">
+          <div class="player-contorls trans-bg">
+              <div><i class="fa-solid fa-shuffle"></i></div>
+              <div><i class="fa-solid fa-backward-step"></i></div>
+              <div><i class="fa-solid fa-play"></i></div>
+              <div><i class="fa-solid fa-forward-step"></i></div>
+              <div><i class="fa-solid fa-arrow-rotate-left"></i></div>
+          </div>
+          <div class="slider">
+              <div class="time">0:00</div>
+              <div class="slide-ctr">
+                  <input type="range" min="0" max="100" value="0" class="slider" id="myrange">
+              </div>
+              <div class="time">5:00</div>
+          </div>
+      </div>
+      <div class="extras trans-bg">
+          <div><i class="fa-solid fa-list"></i></div>
+          <div><i class="fa-solid fa-laptop"></i></div>
+          <div><i class="fa-solid fa-volume-high"></i></div>
+          <div></div>
+          <div><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+      </div>
+  </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
